@@ -1,0 +1,4 @@
+ALTER TABLE `tec_customers` ADD COLUMN `seller_id` INT(11) NOT NULL;
+ALTER TABLE `tec_customers` ADD COLUMN `cod_loja` VARCHAR(45) NOT NULL;
+ALTER TABLE `tec_customers` ADD COLUMN `local_id` INT NOT NULL;
+ALTER TABLE `tec_customers` ADD COLUMN `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;

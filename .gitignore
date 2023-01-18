@@ -1,0 +1,7 @@
+/nbproject/
+/vendor/
+/uploads/
+/app/config/config-local.php
+Thumbs.db
+composer.lock
+composer.phar
